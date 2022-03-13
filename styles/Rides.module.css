@@ -1,0 +1,168 @@
+.container {
+  background-color: #292929;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+
+.filter button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.filterBox {
+  position: absolute;
+  right: 2.5rem;
+  background: #0a0a0a;
+  width: 12rem;
+  height: 10rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.hideFilterBox {
+  display: none;
+}
+
+.filterBox .titleCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.filterBox .cancelIcon {
+  transform: translate(15px, -12px);
+  cursor: pointer;
+}
+
+.filterBox .title {
+  color: #a5a5a5;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+}
+
+.filterBox .state {
+  width: 100%;
+}
+
+.filterBox .state select {
+  width: 100%;
+  height: 1.8rem;
+}
+
+.filterBox .state option {
+  width: 100%;
+}
+
+.filterBox .city {
+  width: 100%;
+}
+
+.filterBox .city select {
+  height: 1.8rem;
+  width: 100%;
+}
+
+.filterBox .city option {
+  width: 100%;
+}
+
+.types {
+  width: 30%;
+}
+
+.types ul {
+  font-size: 1.2rem;
+  color: #d0cbcb;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.types ul .active {
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #fff;
+}
+
+.filters button {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.rides {
+  background-color: #292929;
+  display: flex;
+  flex-direction: column;
+  height: 100% !important;
+}
+
+.ride {
+  background-color: #171717;
+  margin: 1rem 2.5rem;
+  padding: 1.2rem;
+  border-radius: 0.6rem;
+  display: flex;
+}
+
+.ride .img {
+  margin: 0 1rem;
+}
+
+.ride .img img {
+  width: 20rem;
+  height: 12rem;
+  border-radius: 0.6rem;
+}
+
+.ride .details {
+  color: #cfcfcf;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
+
+.ride .details ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ride .details ul span {
+  color: #fff;
+}
+
+.ride .additional {
+  display: flex;
+  margin-left: auto;
+  right: 0;
+}
+
+.ride .tag {
+  font-size: 0.8rem;
+  background-color: #0a0a0a;
+  height: 1.5rem;
+  padding: 0.2rem 0.6rem;
+  margin: 0 1rem;
+  border-radius: 0.6rem;
+}

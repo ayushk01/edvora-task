@@ -1,0 +1,33 @@
+.nav {
+  background-color: #101010;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 3rem;
+}
+
+.title {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.avatar {
+  margin-left: 1rem;
+}
+
+.avatar img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
